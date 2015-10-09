@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry including="co/sistemcobro/hermes/bean/**|co/sistemcobro/rrhh/bean/**|co/sistemcobro/rrhh/constante/**|co/sistemcobro/rrhh/dao/**|co/sistemcobro/rrhh/ejb/**" kind="src" path="src_sistemcobro">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_79_86"/>
+	<classpathentry kind="lib" path="DJNativeSwing-SWTAPI.jar"/>
+	<classpathentry kind="lib" path="DJNativeSwing-SWTCore.jar"/>
+	<classpathentry kind="lib" path="DJNativeSwing-SWTDemo.jar"/>
+	<classpathentry kind="lib" path="DJNativeSwing.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.swt"/>
+	<classpathentry kind="lib" path="log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="lib"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="javaee-api-7.0.jar"/>
+	<classpathentry kind="lib" path="gf-client.jar"/>
+	<classpathentry kind="lib" path="appserv-rt.jar"/>
+	<classpathentry kind="lib" path="gson-2.2.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
